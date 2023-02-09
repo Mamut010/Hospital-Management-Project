@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="scheduleAddPanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="scheduleAddDateLabel" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddStartTimeLabel" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddEndTimeLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="scheduleAddDayLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddStartHourLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddEndHourLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="scheduleAddDayBox" linkSize="7" min="-2" pref="65" max="-2" attributes="0"/>
+                      <Component id="scheduleAddStartHourSpinner" linkSize="7" min="-2" pref="65" max="-2" attributes="0"/>
+                      <Component id="scheduleAddEndHourSpinner" linkSize="7" alignment="0" min="-2" pref="65" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="scheduleAddMonthLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddStartMinLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddEndMinLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="scheduleAddMonthBox" linkSize="7" min="-2" pref="63" max="-2" attributes="0"/>
+                      <Component id="scheduleAddStartMinSpinner" linkSize="7" max="32767" attributes="0"/>
+                      <Component id="scheduleAddEndMinSpinner" linkSize="7" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  <Component id="scheduleAddYearLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="scheduleAddYearBox" min="-2" pref="95" max="-2" attributes="0"/>
+                  <EmptySpace pref="10" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="scheduleAddDateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddDayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddDayBox" linkSize="5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddMonthBox" linkSize="5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddMonthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddYearBox" linkSize="5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddYearLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="scheduleAddStartHourLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddStartTimeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddStartMinLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddStartHourSpinner" linkSize="5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddStartMinSpinner" linkSize="5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="scheduleAddEndHourLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddEndTimeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddEndMinLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddEndHourSpinner" linkSize="5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleAddEndMinSpinner" linkSize="5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="18" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JComboBox" name="scheduleAddDayBox">
+          <Properties>
+            <Property name="editable" type="boolean" value="true"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="scheduleAddMonthBox">
+          <Properties>
+            <Property name="editable" type="boolean" value="true"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="scheduleAddYearBox">
+          <Properties>
+            <Property name="editable" type="boolean" value="true"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleAddDateLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Date:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleAddDayLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Day"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleAddMonthLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Month"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleAddYearLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Year"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleAddStartTimeLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Start Time:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleAddStartHourLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Hour"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleAddStartMinLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Minute"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleAddEndTimeLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="End Time:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleAddEndHourLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Hour"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleAddEndMinLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Minute"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="scheduleAddStartHourSpinner">
+        </Component>
+        <Component class="javax.swing.JSpinner" name="scheduleAddStartMinSpinner">
+        </Component>
+        <Component class="javax.swing.JSpinner" name="scheduleAddEndHourSpinner">
+        </Component>
+        <Component class="javax.swing.JSpinner" name="scheduleAddEndMinSpinner">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="scheduleEditTimePanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="scheduleEditTimeStartTimeLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="scheduleEditTimeStartHourLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="scheduleEditTimeStartHourSpinner" linkSize="8" pref="62" max="32767" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="scheduleEditTimeStartMinLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="scheduleEditTimeStartMinSpinner" linkSize="8" pref="60" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="scheduleEditTimeEndTimeLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="scheduleEditTimeEndHourLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="scheduleEditTimeEndHourSpinner" linkSize="8" max="32767" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="scheduleEditTimeEndMinLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="scheduleEditTimeEndMinSpinner" linkSize="8" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="scheduleEditTimeStartTimeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleEditTimeStartHourLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleEditTimeStartMinLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleEditTimeStartHourSpinner" linkSize="11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleEditTimeStartMinSpinner" linkSize="11" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="scheduleEditTimeEndTimeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleEditTimeEndHourLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleEditTimeEndMinLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleEditTimeEndHourSpinner" linkSize="10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleEditTimeEndMinSpinner" linkSize="10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="scheduleEditTimeStartTimeLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Start Time:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleEditTimeEndTimeLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="End Time:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleEditTimeStartHourLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Hour"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleEditTimeEndHourLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Hour"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleEditTimeStartMinLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Minute"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleEditTimeEndMinLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Minute"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="scheduleEditTimeStartHourSpinner">
+        </Component>
+        <Component class="javax.swing.JSpinner" name="scheduleEditTimeEndHourSpinner">
+        </Component>
+        <Component class="javax.swing.JSpinner" name="scheduleEditTimeStartMinSpinner">
+        </Component>
+        <Component class="javax.swing.JSpinner" name="scheduleEditTimeEndMinSpinner">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="scheduleEditDatePanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="scheduleEditDateDateLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                  <Component id="scheduleEditDateDayLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="scheduleEditDateDayBox" linkSize="14" min="-2" pref="63" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="scheduleEditDateMonthLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="scheduleEditDateMonthBox" linkSize="14" min="-2" pref="64" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="scheduleEditDateYearLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="scheduleEditDateYearBox" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace pref="19" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="scheduleEditDateDateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleEditDateDayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleEditDateMonthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleEditDateYearLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleEditDateDayBox" linkSize="12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleEditDateMonthBox" linkSize="12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleEditDateYearBox" linkSize="12" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="39" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="scheduleEditDateDateLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Date:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleEditDateDayLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Day"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleEditDateMonthLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Month"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleEditDateYearLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Year"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="scheduleEditDateDayBox">
+          <Properties>
+            <Property name="editable" type="boolean" value="true"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="scheduleEditDateMonthBox">
+          <Properties>
+            <Property name="editable" type="boolean" value="true"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="scheduleEditDateYearBox">
+          <Properties>
+            <Property name="editable" type="boolean" value="true"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="scheduleFindTimePanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="scheduleFindTimeTimeLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleFindTimeDateLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="scheduleFindTimeDayLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleFindTimeHourLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="scheduleFindTimeDayBox" alignment="0" min="-2" pref="65" max="-2" attributes="0"/>
+                      <Component id="scheduleFindTimeHourSpinner" alignment="0" min="-2" pref="65" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="scheduleFindTimeLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleFindTimeMinLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="scheduleFindTimeMonthBox" alignment="0" min="-2" pref="63" max="-2" attributes="0"/>
+                      <Component id="scheduleFindTimeMinSpinner" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  <Component id="scheduleFindTimeYearLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="scheduleFindTimeYearBox" min="-2" pref="95" max="-2" attributes="0"/>
+                  <EmptySpace pref="25" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="scheduleFindTimeDateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleFindTimeDayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleFindTimeDayBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleFindTimeMonthBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleFindTimeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleFindTimeYearBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleFindTimeYearLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="scheduleFindTimeHourLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleFindTimeTimeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleFindTimeMinLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleFindTimeHourSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleFindTimeMinSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="14" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JComboBox" name="scheduleFindTimeDayBox">
+          <Properties>
+            <Property name="editable" type="boolean" value="true"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="scheduleFindTimeMonthBox">
+          <Properties>
+            <Property name="editable" type="boolean" value="true"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="scheduleFindTimeYearBox">
+          <Properties>
+            <Property name="editable" type="boolean" value="true"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleFindTimeDateLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Date:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleFindTimeDayLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Day"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleFindTimeLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Month"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleFindTimeYearLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Year"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleFindTimeTimeLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Time:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleFindTimeHourLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Hour"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="scheduleFindTimeMinLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Minute"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="scheduleFindTimeHourSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="0" maximum="23" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+            </Property>
+            <Property name="editor" type="javax.swing.JComponent" editor="org.netbeans.modules.form.editors.SpinnerEditorEditor">
+              <SpinnerEditor format="00" type="3"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="scheduleFindTimeMinSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="0" maximum="59" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+            </Property>
+            <Property name="editor" type="javax.swing.JComponent" editor="org.netbeans.modules.form.editors.SpinnerEditorEditor">
+              <SpinnerEditor format="00" type="3"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="scheduleAddDialog">
+      <Properties>
+        <Property name="defaultCloseOperation" type="int" value="0"/>
+        <Property name="title" type="java.lang.String" value="Add"/>
+        <Property name="modal" type="boolean" value="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="scheduleAddDialogWindowClosing"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="scheduleAddOptionPane" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="scheduleAddOptionPane" alignment="0" pref="124" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JOptionPane" name="scheduleAddOptionPane">
+          <Properties>
+            <Property name="message" type="java.lang.Object" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="scheduleAddPanel" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="scheduleAddOptionPanePropertyChange"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new JOptionPane(null, JOptionPane.PLAIN_MESSAGE, JOptionPane.OK_CANCEL_OPTION, null)"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="scheduleEditTimeDialog">
+      <Properties>
+        <Property name="defaultCloseOperation" type="int" value="0"/>
+        <Property name="title" type="java.lang.String" value="Edit Time"/>
+        <Property name="modal" type="boolean" value="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="scheduleEditTimeDialogWindowClosing"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="262" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Component id="scheduleEditTimeOptionPane" alignment="1" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="119" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Component id="scheduleEditTimeOptionPane" alignment="1" pref="119" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JOptionPane" name="scheduleEditTimeOptionPane">
+          <Properties>
+            <Property name="message" type="java.lang.Object" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="scheduleEditTimePanel" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="scheduleEditTimeOptionPanePropertyChange"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new JOptionPane(null, JOptionPane.PLAIN_MESSAGE, JOptionPane.OK_CANCEL_OPTION, null)"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="scheduleEditDateDialog">
+      <Properties>
+        <Property name="defaultCloseOperation" type="int" value="0"/>
+        <Property name="title" type="java.lang.String" value="Edit Date"/>
+        <Property name="modal" type="boolean" value="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="scheduleEditDateDialogWindowClosing"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="276" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Component id="scheduleEditDateOptionPane" alignment="0" pref="276" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="143" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Component id="scheduleEditDateOptionPane" alignment="0" pref="143" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JOptionPane" name="scheduleEditDateOptionPane">
+          <Properties>
+            <Property name="message" type="java.lang.Object" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="scheduleEditDatePanel" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="scheduleEditDateOptionPanePropertyChange"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new JOptionPane(null, JOptionPane.PLAIN_MESSAGE, JOptionPane.OK_CANCEL_OPTION, null)"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="scheduleFineTimeDialog">
+      <Properties>
+        <Property name="defaultCloseOperation" type="int" value="0"/>
+        <Property name="title" type="java.lang.String" value="Find Time"/>
+        <Property name="modal" type="boolean" value="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="scheduleFineTimeDialogWindowClosing"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="361" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Component id="scheduleFindTimeOptionPane" alignment="0" pref="361" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="119" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Component id="scheduleFindTimeOptionPane" alignment="0" pref="119" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JOptionPane" name="scheduleFindTimeOptionPane">
+          <Properties>
+            <Property name="message" type="java.lang.Object" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="scheduleFindTimePanel" type="code"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="scheduleFindTimeOptionPanePropertyChange"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new JOptionPane(null, JOptionPane.PLAIN_MESSAGE, JOptionPane.OK_CANCEL_OPTION, null)"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="1055" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="schedulePanel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="639" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="schedulePanel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="schedulePanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="scheduleEntryField" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="scheduleUtilityField" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Component id="scheduleTableField" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="scheduleUtilityField" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="scheduleEntryField" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="scheduleTableField" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="scheduleEntryField">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                <EtchetBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="scheduleInvalidInputLabel" min="-2" pref="205" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="scheduleIDPromptLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="scheduleIDInputTextField" min="-2" pref="205" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="schedulePromptLabel" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="scheduleCreateScheduleButton" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="scheduleRemoveScheduleButton" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="scheduleAccessScheduleButton" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="schedulePromptLabel" min="-2" pref="16" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="scheduleIDInputTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="scheduleIDPromptLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="scheduleInvalidInputLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="scheduleAccessScheduleButton" linkSize="4" min="-2" pref="16" max="-2" attributes="0"/>
+                              <EmptySpace pref="8" max="32767" attributes="0"/>
+                              <Component id="scheduleCreateScheduleButton" linkSize="4" min="-2" pref="21" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Component id="scheduleRemoveScheduleButton" linkSize="4" min="-2" pref="27" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="scheduleIDPromptLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ID:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="scheduleAccessScheduleButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Access Schedule"/>
+                <Property name="focusPainted" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="scheduleAccessScheduleButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="scheduleCreateScheduleButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Create Schedule"/>
+                <Property name="focusPainted" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="scheduleCreateScheduleButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="scheduleRemoveScheduleButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Remove Schedule"/>
+                <Property name="focusPainted" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="scheduleRemoveScheduleButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="schedulePromptLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Enter an employee&apos;s ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="scheduleInvalidInputLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="0" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="scheduleIDInputTextField">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="scheduleUtilityField">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                <EtchetBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="8" max="32767" attributes="0"/>
+                      <Component id="scheduleAddButton" linkSize="15" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="scheduleDeleteTimeButton" linkSize="15" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="scheduleDeleteDateButton" linkSize="15" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="scheduleEditTimeButton" linkSize="15" min="-2" pref="76" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="scheduleEditDateButton" linkSize="15" min="-2" pref="78" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="scheduleFindTimeButton" linkSize="15" min="-2" pref="101" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="scheduleAddButton" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="scheduleEditDateButton" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="scheduleFindTimeButton" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="scheduleDeleteTimeButton" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="scheduleDeleteDateButton" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="scheduleEditTimeButton" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="42" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="scheduleAddButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add"/>
+                <Property name="toolTipText" type="java.lang.String" value="Add a new record to the schedule"/>
+                <Property name="focusPainted" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="scheduleAddButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="scheduleFindTimeButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Find Time"/>
+                <Property name="toolTipText" type="java.lang.String" value="Find a record that covers a given time &lt;Ctrl + F&gt;"/>
+                <Property name="focusPainted" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="scheduleFindTimeButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="scheduleEditDateButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Edit Date"/>
+                <Property name="toolTipText" type="java.lang.String" value="Edit a date, then move all associated records to the new corresponding column"/>
+                <Property name="focusPainted" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="scheduleEditDateButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="scheduleEditTimeButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Edit Time"/>
+                <Property name="toolTipText" type="java.lang.String" value="Edit a record"/>
+                <Property name="focusPainted" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="scheduleEditTimeButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="scheduleDeleteDateButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Delete Date"/>
+                <Property name="toolTipText" type="java.lang.String" value="Delete all records in a column, including the date &lt;Ctrl + Shift + Del&gt;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="scheduleDeleteDateButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="scheduleDeleteTimeButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Delete Time"/>
+                <Property name="toolTipText" type="java.lang.String" value="Delete a record &lt;Del&gt;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="scheduleDeleteTimeButtonActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="scheduleTableField">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="scheduleTableEmptyPanel">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                  <CardConstraints cardName="emptyPanel"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="1055" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="520" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="scheduleTableScrollPane">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                  <CardConstraints cardName="tablePanel"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="scheduleTable">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="18" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="7" rowCount="0">
+                        <Column editable="false" title="Monday" type="java.lang.Object"/>
+                        <Column editable="false" title="Tuesday" type="java.lang.Object"/>
+                        <Column editable="false" title="Wednesday" type="java.lang.Object"/>
+                        <Column editable="false" title="Thursday" type="java.lang.Object"/>
+                        <Column editable="false" title="Friday" type="java.lang.Object"/>
+                        <Column editable="false" title="Saturday" type="java.lang.Object"/>
+                        <Column editable="false" title="Sunday" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="2">
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="columnSelectionAllowed" type="boolean" value="true"/>
+                    <Property name="rowHeight" type="int" value="60"/>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="false" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="scheduleTableMousePressed"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JTable(){&#xd;&#xa;    @Override&#xd;&#xa;    public Component prepareRenderer(TableCellRenderer renderer, int row, int column) {&#xd;&#xa;        Component comp = super.prepareRenderer(renderer, row, column);&#xd;&#xa;        if(!comp.getBackground().equals(getSelectionBackground())) {&#xd;&#xa;            Color c;            &#xd;&#xa;            if(row == 0) {&#xd;&#xa;                c = FIRST_ROW_COLOR;&#xd;&#xa;            }&#xd;&#xa;            else {&#xd;&#xa;                c = (row % 2 == 1) ? COLOR_ODD : COLOR_EVEN;&#xd;&#xa;            }&#xd;&#xa;&#xd;&#xa;            comp.setBackground(c);&#xd;&#xa;            c = null;&#xd;&#xa;        }&#xd;&#xa;        return comp;&#xd;&#xa;    }&#xd;&#xa;};"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
